@@ -1,0 +1,22 @@
+{
+  "default": "llama-cuda",
+  "mirrors": [
+    "https://ghproxy.com/",
+    "https://mirror.ghproxy.com/"
+  ],
+  "download": {
+    "repo": "ggml-org/llama.cpp",
+    "asset_pattern": "cudart-llama-bin-win-cuda-12.4-x64.zip",
+    "note": "带 cudart 的 Windows CUDA 12.4 包（开箱即用，无需另装 CUDA Toolkit）；想换 Vulkan/CPU/CUDA13.4 改这里即可"
+  },
+  "backends": [
+    {
+      "id": "llama-cuda",
+      "name": "llama.cpp CUDA（内置）",
+      "binary": "llama-server/llama-server.exe",
+      "health_path": "/health",
+      "env_extra": {},
+      "args_overrides": []
+    }
+  ]
+}

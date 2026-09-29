@@ -1,0 +1,68 @@
+{
+  "model": "C:\\Users\\Administrator\\.lmstudio\\models\\JonathanColetti\\Qwen3.8-27B-Uncensored-GGUF\\Qwen3.8-27B-Uncensored-IQ2_M.gguf",
+  "models": [
+    {
+      "display": "C:\\Users\\Administrator\\.lmstudio\\models\\JonathanColetti\\Qwen3.8-27B-Uncensored-GGUF\\Qwen3.8-27B-Uncensored-IQ2_M.gguf",
+      "path": "C:\\Users\\Administrator\\.lmstudio\\models\\JonathanColetti\\Qwen3.8-27B-Uncensored-GGUF\\Qwen3.8-27B-Uncensored-IQ2_M.gguf"
+    },
+    {
+      "display": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF/Qwen3.8-27B-Uncensored-draft-Q4_0.gguf",
+      "path": "C:\\Users\\Administrator\\.lmstudio\\models\\JonathanColetti\\Qwen3.8-27B-Uncensored-GGUF\\Qwen3.8-27B-Uncensored-draft-Q4_0.gguf"
+    },
+    {
+      "display": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF/Qwen3.8-27B-Uncensored-IQ2_M.gguf",
+      "path": "C:\\Users\\Administrator\\.lmstudio\\models\\JonathanColetti\\Qwen3.8-27B-Uncensored-GGUF\\Qwen3.8-27B-Uncensored-IQ2_M.gguf"
+    },
+    {
+      "display": "lmstudio-community/Qwen2.5-1.5B-Instruct-GGUF/Qwen2.5-1.5B-Instruct-Q8_0.gguf",
+      "path": "C:\\Users\\Administrator\\.lmstudio\\models\\lmstudio-community\\Qwen2.5-1.5B-Instruct-GGUF\\Qwen2.5-1.5B-Instruct-Q8_0.gguf"
+    },
+    {
+      "display": "lmstudio-community/qwen2.5-code/qwen2.5-coder14b.gguf",
+      "path": "C:\\Users\\Administrator\\.lmstudio\\models\\lmstudio-community\\qwen2.5-code\\qwen2.5-coder14b.gguf"
+    },
+    {
+      "display": "library/qwen2.5:7b",
+      "path": "C:\\Users\\Administrator\\.ollama\\models\\blobs\\sha256-2bada8a7450677000f678be90653b85d364de7db25eb5ea54136ada5f3933730"
+    },
+    {
+      "display": "library/qwen3:0.6b",
+      "path": "C:\\Users\\Administrator\\.ollama\\models\\blobs\\sha256-7f4030143c1c477224c5434f8272c662a8b042079a0a584f0a27a1684fe2e1fa"
+    },
+    {
+      "display": "orcarouter/Qwen3.8-27B-Uncensored:iq3_m",
+      "path": "C:\\Users\\Administrator\\.ollama\\models\\blobs\\sha256-42c88ef3450c15dd7b91d4a19e5efcf3f9cb36b4ae4403b977ef8357346d2c2b"
+    }
+  ],
+  "scan_dirs": [],
+  "ctx": "64K",
+  "ngl": -1,
+  "threads": 13,
+  "host": "0.0.0.0",
+  "lan_access": true,
+  "backend": "llama-cuda",
+  "port": "4444",
+  "gpu_ids": [
+    0,
+    1
+  ],
+  "split": "0.4,0.6",
+  "sm": "layer",
+  "flash_attn": true,
+  "kv_q4": true,
+  "spec_enable": false,
+  "spec_type": "draft-simple",
+  "spec_nmax": 3,
+  "spec_device": "none",
+  "spec_ngld": -1,
+  "draft_model": "C:/Users/Administrator/.lmstudio/models/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF/Qwen3.8-27B-Uncensored-draft-Q4_0.gguf",
+  "reasoning": "on",
+  "reasoning_effort": "default",
+  "reasoning_budget": -1,
+  "reasoning_format": "none",
+  "temperature": 0.3,
+  "srv_temp": 0.7,
+  "repeat_penalty": 1.1,
+  "top_p": 0.9,
+  "top_k": 40
+}
